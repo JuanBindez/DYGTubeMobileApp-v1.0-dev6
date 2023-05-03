@@ -1,0 +1,263 @@
+Date/Time:       2023-05-03 11:11:51 
+Command line:    /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin/briefcase run android
+
+OS Release:      Linux 5.19.0-41-generic
+OS Version:      #42-Ubuntu SMP PREEMPT_DYNAMIC Mon Apr 17 19:17:03 UTC 2023
+Architecture:    x86_64
+Platform:        Linux-5.19.0-41-generic-x86_64-with-glibc2.36
+
+Python exe:      /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin/python
+Python version:  3.10.7 (main, Mar 10 2023, 10:47:39) [GCC 12.2.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.14
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+    COLORTERM=truecolor
+    DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+    DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+    DESKTOP_SESSION=ubuntu
+    DISPLAY=:0
+    GDMSESSION=ubuntu
+    GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+    GNOME_SETUP_DISPLAY=:1
+    GNOME_SHELL_SESSION_MODE=ubuntu
+    GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ba6053a6_26db_4bd9_9deb_e635103d4bc8
+    GNOME_TERMINAL_SERVICE=:1.117
+    GTK_MODULES=gail:atk-bridge
+    HOME=/home/estoque
+    IM_CONFIG_PHASE=1
+    LANG=pt_BR.UTF-8
+    LANGUAGE=pt_BR:pt:en
+    LESSCLOSE=/usr/bin/lesspipe %s %s
+    LESSOPEN=| /usr/bin/lesspipe %s
+    LOGNAME=estoque
+    LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+    OLDPWD=/home/estoque/Área de Trabalho
+    PATH=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin:/home/estoque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+    PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+    PWD=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1
+    QT_ACCESSIBILITY=1
+    QT_IM_MODULE=ibus
+    SESSION_MANAGER=local/estoque:@/tmp/.ICE-unix/1788,unix/estoque:/tmp/.ICE-unix/1788
+    SHELL=/bin/bash
+    SHLVL=1
+    SSH_AGENT_LAUNCHER=openssh
+    SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+    SYSTEMD_EXEC_PID=1818
+    TERM=xterm-256color
+    USER=estoque
+    USERNAME=estoque
+    VIRTUAL_ENV=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv
+    VTE_VERSION=7000
+    WAYLAND_DISPLAY=wayland-0
+    XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.0U8M41
+    XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+    XDG_CURRENT_DESKTOP=ubuntu:GNOME
+    XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+    XDG_MENU_PREFIX=gnome-
+    XDG_RUNTIME_DIR=/run/user/1000
+    XDG_SESSION_CLASS=user
+    XDG_SESSION_DESKTOP=ubuntu
+    XDG_SESSION_TYPE=wayland
+    XMODIFIERS=@im=ibus
+    _=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin/briefcase
+
+Briefcase Log:
+[11:11:43] >>> Android emulator is already installed.                                                                                                             android_sdk.py:424
+                                                                                                                                                                   subprocess.py:675
+           >>> Running Command:                                                                                                                                    subprocess.py:676
+           >>>     /home/estoque/.cache/briefcase/tools/android_sdk/platform-tools/adb devices -l                                                                  subprocess.py:677
+           >>> Working Directory:                                                                                                                                  subprocess.py:684
+           >>>     /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1                                                                                       subprocess.py:685
+           >>> Command Output:                                                                                                                                     subprocess.py:701
+           >>>     List of devices attached                                                                                                                        subprocess.py:703
+           >>>     ZF5232S9HL             unauthorized usb:1-1 transport_id:7                                                                                      subprocess.py:703
+           >>>                                                                                                                                                     subprocess.py:703
+           >>> Return code: 0                                                                                                                                      subprocess.py:712
+                                                                                                                                                                   subprocess.py:675
+           >>> Running Command:                                                                                                                                    subprocess.py:676
+           >>>     /home/estoque/.cache/briefcase/tools/android_sdk/platform-tools/adb -s ZF5232S9HL emu avd name                                                  subprocess.py:677
+           >>> Working Directory:                                                                                                                                  subprocess.py:684
+           >>>     /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1                                                                                       subprocess.py:685
+           >>> Return code: 1                                                                                                                                      subprocess.py:712
+                                                                                                                                                                   subprocess.py:675
+           >>> Running Command:                                                                                                                                    subprocess.py:676
+           >>>     /home/estoque/.cache/briefcase/tools/android_sdk/emulator/emulator -list-avds                                                                   subprocess.py:677
+           >>> Working Directory:                                                                                                                                  subprocess.py:684
+           >>>     /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1                                                                                       subprocess.py:685
+           >>> Command Output:                                                                                                                                     subprocess.py:701
+           >>>     beePhone                                                                                                                                        subprocess.py:703
+           >>> Return code: 0                                                                                                                                      subprocess.py:712
+                                                                                                                                                                  android_sdk.py:803
+           Select device:                                                                                                                                         android_sdk.py:804
+                                                                                                                                                                  android_sdk.py:805
+             1) Unknown device (not authorized for development) (ZF5232S9HL)                                                                                          console.py:597
+             2) @beePhone (emulator)                                                                                                                                  console.py:597
+             3) Create a new Android emulator                                                                                                                         console.py:597
+                                                                                                                                                                      console.py:599
+[11:11:49] >                                                                                                                                                          console.py:602
+           >>> User input: 1                                                                                                                                          console.py:602
+                                                                                                                                                                      __main__.py:40
+                                                                                                                                                                      __main__.py:41
+           The device you have selected (ZF5232S9HL) has not had developer options and                                                                                __main__.py:41
+           USB debugging enabled. These must be enabled before a device can be used  as a                                                                             __main__.py:41
+           target for deployment. For details on how to enable Developer Options, visit:                                                                              __main__.py:41
+                                                                                                                                                                      __main__.py:41
+               https://developer.android.com/studio/debug/dev-options#enable                                                                                          __main__.py:41
+                                                                                                                                                                      __main__.py:41
+           Once you have enabled these options on your device, you will be able to select                                                                             __main__.py:41
+           this device as a deployment target.                                                                                                                        __main__.py:41
+                                                                                                                                                                      __main__.py:41
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/__main__.py:25 in main                                                     │
+│                                                                                                                                                                                  │
+│   22 │   │   command = Command(logger=logger, console=console)                                                                                                                   │
+│   23 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   24 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ ❱ 25 │   │   command(**options)                                                                                                                                                  │
+│   26 │   except HelpText as e:                                                                                                                                                   │
+│   27 │   │   logger.info()                                                                                                                                                       │
+│   28 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │       command = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7f33604ca920> │                                                                               │
+│ │       Command = <class 'briefcase.platforms.android.gradle.GradleRunCommand'>                  │                                                                               │
+│ │       console = <briefcase.console.Console object at 0x7f33602d2e30>                           │                                                                               │
+│ │             e = AndroidDeviceNotAuthorized('ZF5232S9HL')                                       │                                                                               │
+│ │ extra_cmdline = []                                                                             │                                                                               │
+│ │        logger = <briefcase.console.Log object at 0x7f33602d3040>                               │                                                                               │
+│ │       options = {                                                                              │                                                                               │
+│ │                 │   'appname': None,                                                           │                                                                               │
+│ │                 │   'update': False,                                                           │                                                                               │
+│ │                 │   'update_requirements': False,                                              │                                                                               │
+│ │                 │   'update_resources': False,                                                 │                                                                               │
+│ │                 │   'no_update': False,                                                        │                                                                               │
+│ │                 │   'test_mode': False,                                                        │                                                                               │
+│ │                 │   'device_or_avd': None,                                                     │                                                                               │
+│ │                 │   'extra_emulator_args': None,                                               │                                                                               │
+│ │                 │   'shutdown_on_exit': False,                                                 │                                                                               │
+│ │                 │   'passthrough': []                                                          │                                                                               │
+│ │                 }                                                                              │                                                                               │
+│ │        result = 200                                                                            │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/commands/run.py:301 in __call__                                            │
+│                                                                                                                                                                                  │
+│   298 │   │                                                                                                                                                                      │
+│   299 │   │   self.verify_app_tools(app)                                                                                                                                         │
+│   300 │   │                                                                                                                                                                      │
+│ ❱ 301 │   │   state = self.run_app(                                                                                                                                              │
+│   302 │   │   │   app,                                                                                                                                                           │
+│   303 │   │   │   test_mode=test_mode,                                                                                                                                           │
+│   304 │   │   │   passthrough=[] if passthrough is None else passthrough,                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                 app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev1 AppConfig>                                                                                      │ │
+│ │             appname = None                                                                                                                                                   │ │
+│ │         binary_file = PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/outputs/apk/debug/app-debug.apk') │ │
+│ │           no_update = False                                                                                                                                                  │ │
+│ │             options = {'device_or_avd': None, 'extra_emulator_args': None, 'shutdown_on_exit': False}                                                                        │ │
+│ │         passthrough = []                                                                                                                                                     │ │
+│ │                self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7f33604ca920>                                                                         │ │
+│ │               state = None                                                                                                                                                   │ │
+│ │       template_file = PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle')                                           │ │
+│ │           test_mode = False                                                                                                                                                  │ │
+│ │              update = False                                                                                                                                                  │ │
+│ │ update_requirements = False                                                                                                                                                  │ │
+│ │    update_resources = False                                                                                                                                                  │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/platforms/android/gradle.py:267 in run_app                                 │
+│                                                                                                                                                                                  │
+│   264 │   │   :param extra_emulator_args: Any additional arguments to pass to the emulator.                                                                                      │
+│   265 │   │   :param shutdown_on_exit: Should the emulator be shut down on exit?                                                                                                 │
+│   266 │   │   """                                                                                                                                                                │
+│ ❱ 267 │   │   device, name, avd = self.tools.android_sdk.select_target_device(device_or_avd)                                                                                     │
+│   268 │   │                                                                                                                                                                      │
+│   269 │   │   # If there's no device ID, that means the emulator isn't running.                                                                                                  │
+│   270 │   │   # If there's no AVD either, it means the user has chosen to create                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                         │
+│ │                 app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev1 AppConfig>              │                                                                         │
+│ │       device_or_avd = None                                                                           │                                                                         │
+│ │ extra_emulator_args = None                                                                           │                                                                         │
+│ │              kwargs = {}                                                                             │                                                                         │
+│ │         passthrough = []                                                                             │                                                                         │
+│ │                self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7f33604ca920> │                                                                         │
+│ │    shutdown_on_exit = False                                                                          │                                                                         │
+│ │           test_mode = False                                                                          │                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                         │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/integrations/android_sdk.py:842 in select_target_device                    │
+│                                                                                                                                                                                  │
+│    839 │   │   │   details = running_devices[choice]                                                                                                                             │
+│    840 │   │   │   if not details["authorized"]:                                                                                                                                 │
+│    841 │   │   │   │   # An unauthorized physical device                                                                                                                         │
+│ ❱  842 │   │   │   │   raise AndroidDeviceNotAuthorized(choice)                                                                                                                  │
+│    843 │   │   │                                                                                                                                                                 │
+│    844 │   │   │   # Return the device ID and name.                                                                                                                              │
+│    845 │   │   │   device = choice                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────╮                                        │
+│ │             avd = 'beePhone'                                                                                                          │                                        │
+│ │          choice = 'ZF5232S9HL'                                                                                                        │                                        │
+│ │         choices = [                                                                                                                   │                                        │
+│ │                   │   ('ZF5232S9HL', 'Unknown device (not authorized for development) (ZF5232S9HL)'),                                 │                                        │
+│ │                   │   ('@beePhone', '@beePhone (emulator)'),                                                                          │                                        │
+│ │                   │   (None, 'Create a new Android emulator')                                                                         │                                        │
+│ │                   ]                                                                                                                   │                                        │
+│ │               d = 'ZF5232S9HL'                                                                                                        │                                        │
+│ │         details = {'name': 'Unknown device (not authorized for development)', 'authorized': False}                                    │                                        │
+│ │  device_choices = {'ZF5232S9HL': 'Unknown device (not authorized for development) (ZF5232S9HL)', '@beePhone': '@beePhone (emulator)'} │                                        │
+│ │   device_or_avd = None                                                                                                                │                                        │
+│ │       full_name = 'Unknown device (not authorized for development) (ZF5232S9HL)'                                                      │                                        │
+│ │            name = '@beePhone (emulator)'                                                                                              │                                        │
+│ │    running_avds = {}                                                                                                                  │                                        │
+│ │ running_devices = {'ZF5232S9HL': {'name': 'Unknown device (not authorized for development)', 'authorized': False}}                    │                                        │
+│ │            self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x7f335eb3ffd0>                                            │                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+AndroidDeviceNotAuthorized: 
+The device you have selected (ZF5232S9HL) has not had developer options and
+USB debugging enabled. These must be enabled before a device can be used  as a
+target for deployment. For details on how to enable Developer Options, visit:
+
+    https://developer.android.com/studio/debug/dev-options#enable
+
+Once you have enabled these options on your device, you will be able to select
+this device as a deployment target.
+
+
+[11:11:50]                                                                                                                                                            console.py:305
+           >>> Extra information:                                                                                                                                     console.py:306
+                                                                                                                                                                   subprocess.py:675
+           >>> Running Command:                                                                                                                                    subprocess.py:676
+           >>>     /home/estoque/.cache/briefcase/tools/android_sdk/cmdline-tools/latest/bin/sdkmanager --list_installed                                           subprocess.py:677
+           >>> Working Directory:                                                                                                                                  subprocess.py:684
+           >>>     /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1                                                                                       subprocess.py:685
+           >>> Environment Overrides:                                                                                                                              subprocess.py:694
+           >>>     ANDROID_SDK_ROOT=/home/estoque/.cache/briefcase/tools/android_sdk                                                                               subprocess.py:696
+           >>>     JAVA_HOME=/home/estoque/.cache/briefcase/tools/java                                                                                             subprocess.py:696
+[11:11:51] >>> Command Output:                                                                                                                                     subprocess.py:701
+           >>>     Loading package information...                                                                                                                  subprocess.py:703
+           >>>     Loading local repository...                                                                                                                     subprocess.py:703
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:703
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:703
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:703
+           >>>     Installed packages:                                                                                                                             subprocess.py:703
+           >>>       Path                                    | Version | Description                    | Location                                                 subprocess.py:703
+           >>>       -------                                 | ------- | -------                        | -------                                                  subprocess.py:703
+           >>>       build-tools;30.0.2                      | 30.0.2  | Android SDK Build-Tools 30.0.2 | build-tools/30.0.2                                       subprocess.py:703
+           >>>       emulator                                | 32.1.12 | Android Emulator               | emulator                                                 subprocess.py:703
+           >>>       patcher;v4                              | 1       | SDK Patch Applier v4           | patcher/v4                                               subprocess.py:703
+           >>>       platform-tools                          | 34.0.1  | Android SDK Platform-Tools     | platform-tools                                           subprocess.py:703
+           >>>       platforms;android-33                    | 2       | Android SDK Platform 33        | platforms/android-33                                     subprocess.py:703
+           >>>       system-images;android-31;default;x86_64 | 4       | Intel x86_64 Atom System Image | system-images/android-31/default/x86_64                  subprocess.py:703
+           >>>                                                                                                                                                     subprocess.py:703
+           >>> Return code: 0                                                                                                                                      subprocess.py:712

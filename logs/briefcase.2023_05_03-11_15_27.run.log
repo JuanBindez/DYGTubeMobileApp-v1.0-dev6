@@ -1,0 +1,508 @@
+Date/Time:       2023-05-03 11:15:29 
+Command line:    /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin/briefcase run android
+
+OS Release:      Linux 5.19.0-41-generic
+OS Version:      #42-Ubuntu SMP PREEMPT_DYNAMIC Mon Apr 17 19:17:03 UTC 2023
+Architecture:    x86_64
+Platform:        Linux-5.19.0-41-generic-x86_64-with-glibc2.36
+
+Python exe:      /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin/python
+Python version:  3.10.7 (main, Mar 10 2023, 10:47:39) [GCC 12.2.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.14
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+    COLORTERM=truecolor
+    DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+    DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+    DESKTOP_SESSION=ubuntu
+    DISPLAY=:0
+    GDMSESSION=ubuntu
+    GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+    GNOME_SETUP_DISPLAY=:1
+    GNOME_SHELL_SESSION_MODE=ubuntu
+    GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ba6053a6_26db_4bd9_9deb_e635103d4bc8
+    GNOME_TERMINAL_SERVICE=:1.117
+    GTK_MODULES=gail:atk-bridge
+    HOME=/home/estoque
+    IM_CONFIG_PHASE=1
+    LANG=pt_BR.UTF-8
+    LANGUAGE=pt_BR:pt:en
+    LESSCLOSE=/usr/bin/lesspipe %s %s
+    LESSOPEN=| /usr/bin/lesspipe %s
+    LOGNAME=estoque
+    LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+    OLDPWD=/home/estoque/Área de Trabalho
+    PATH=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin:/home/estoque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+    PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+    PWD=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1
+    QT_ACCESSIBILITY=1
+    QT_IM_MODULE=ibus
+    SESSION_MANAGER=local/estoque:@/tmp/.ICE-unix/1788,unix/estoque:/tmp/.ICE-unix/1788
+    SHELL=/bin/bash
+    SHLVL=1
+    SSH_AGENT_LAUNCHER=openssh
+    SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+    SYSTEMD_EXEC_PID=1818
+    TERM=xterm-256color
+    USER=estoque
+    USERNAME=estoque
+    VIRTUAL_ENV=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv
+    VTE_VERSION=7000
+    WAYLAND_DISPLAY=wayland-0
+    XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.0U8M41
+    XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+    XDG_CURRENT_DESKTOP=ubuntu:GNOME
+    XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+    XDG_MENU_PREFIX=gnome-
+    XDG_RUNTIME_DIR=/run/user/1000
+    XDG_SESSION_CLASS=user
+    XDG_SESSION_DESKTOP=ubuntu
+    XDG_SESSION_TYPE=wayland
+    XMODIFIERS=@im=ibus
+    _=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin/briefcase
+
+Briefcase Log:
+[11:15:19] >>> Android emulator is already installed.                                                                                                             android_sdk.py:424
+                                                                                                                                                                       create.py:755
+           [DYGTubeMobileAPP] Generating application template...                                                                                                       create.py:755
+           Using app template: https://github.com/beeware/briefcase-android-gradle-template.git, branch v0.3.14                                                        create.py:251
+[11:15:20] Using existing template (sha 8c6d6233af63c2df62bf5df45466883f157fbf65, updated Thu Mar  9 08:14:13 2023)                                                      base.py:796
+                                                                                                                                                                       create.py:758
+           [DYGTubeMobileAPP] Installing support package...                                                                                                            create.py:758
+           No support package required.                                                                                                                                create.py:303
+                                                                                                                                                                       create.py:765
+           [DYGTubeMobileAPP] Installing application code...                                                                                                           create.py:765
+           Installing src/DYGTubeMobileAPP... done                                                                                                                     create.py:543
+                                                                                                                                                                       create.py:768
+           [DYGTubeMobileAPP] Installing requirements...                                                                                                               create.py:768
+           Writing requirements file... done                                                                                                                           create.py:397
+                                                                                                                                                                       create.py:771
+           [DYGTubeMobileAPP] Installing application resources...                                                                                                      create.py:771
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-round-48.png for 48px round application icon; using default                                  create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-round-72.png for 72px round application icon; using default                                  create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-round-96.png for 96px round application icon; using default                                  create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-round-144.png for 144px round application icon; using default                                create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-round-192.png for 192px round application icon; using default                                create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-square-48.png for 48px square application icon; using default                                create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-square-72.png for 72px square application icon; using default                                create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-square-96.png for 96px square application icon; using default                                create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-square-144.png for 144px square application icon; using default                              create.py:632
+           Unable to find src/DYGTubeMobileAPP/resources/DYGTubeMobileAPP-square-192.png for 192px square application icon; using default                              create.py:632
+                                                                                                                                                                       create.py:774
+           [DYGTubeMobileAPP] Removing unneeded app content...                                                                                                         create.py:774
+           Removing directory app/src/main/python/DYGTubeMobileAPP/__pycache__                                                                                         create.py:726
+           Removing unneeded app bundle content... done                                                                                                                create.py:719
+                                                                                                                                                                       create.py:777
+           [DYGTubeMobileAPP] Created build/DYGTubeMobileAPP/android/gradle                                                                                            create.py:777
+                                                                                                                                                                       gradle.py:205
+           [DYGTubeMobileAPP] Updating app metadata...                                                                                                                 gradle.py:205
+           Setting main module... done                                                                                                                                 gradle.py:187
+                                                                                                                                                                       gradle.py:208
+           [DYGTubeMobileAPP] Building Android APK...                                                                                                                  gradle.py:208
+           >>> Android emulator is already installed.                                                                                                             android_sdk.py:424
+                                                                                                                                                                   subprocess.py:675
+           >>> Running Command:                                                                                                                                    subprocess.py:676
+           >>>     '/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/gradlew' assembleDebug --console plain         subprocess.py:677
+           >>> Working Directory:                                                                                                                                  subprocess.py:684
+           >>>     /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle                                                 subprocess.py:685
+           >>> Environment Overrides:                                                                                                                              subprocess.py:694
+           >>>     ANDROID_SDK_ROOT=/home/estoque/.cache/briefcase/tools/android_sdk                                                                               subprocess.py:696
+           >>>     JAVA_HOME=/home/estoque/.cache/briefcase/tools/java                                                                                             subprocess.py:696
+[11:15:21]                                                                                                                                                         subprocess.py:649
+           > Configure project :app                                                                                                                                subprocess.py:649
+           Warning: Python version 3.10 may have fewer packages available. If you experience problems, try switching to version 3.8.                               subprocess.py:649
+                                                                                                                                                                   subprocess.py:649
+           > Task :app:preBuild UP-TO-DATE                                                                                                                         subprocess.py:649
+           > Task :app:preDebugBuild UP-TO-DATE                                                                                                                    subprocess.py:649
+           > Task :app:compileDebugAidl NO-SOURCE                                                                                                                  subprocess.py:649
+           > Task :app:compileDebugRenderscript NO-SOURCE                                                                                                          subprocess.py:649
+           > Task :app:generateDebugBuildConfig                                                                                                                    subprocess.py:649
+[11:15:22] > Task :app:extractPythonBuildPackages                                                                                                                  subprocess.py:649
+[11:15:24]                                                                                                                                                         subprocess.py:649
+           > Task :app:generateDebugPythonRequirements                                                                                                             subprocess.py:649
+           Chaquopy: Installing for arm64-v8a                                                                                                                      subprocess.py:649
+           Looking in indexes: https://pypi.org/simple, https://chaquo.com/pypi-7.0, https://chaquo.com/pypi-13.1                                                  subprocess.py:649
+[11:15:25] Collecting pytube                                                                                                                                       subprocess.py:649
+             Using cached pytube-12.1.3-py3-none-any.whl (57 kB)                                                                                                   subprocess.py:649
+[11:15:26] Collecting logging                                                                                                                                      subprocess.py:649
+             Downloading logging-0.4.9.6.tar.gz (96 kB)                                                                                                            subprocess.py:649
+               ERROR: Command errored out with exit status 1:                                                                                                      subprocess.py:649
+                command: '/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/bin/python3.10' -S -c 'import sys, setuptools, tokenize; sys.argv[0] =    subprocess.py:649
+           '"'"'/tmp/pip-install-77004t4e/logging/setup.py'"'"'; __file__='"'"'/tmp/pip-install-77004t4e/logging/setup.py'"'"';import chaquopy_monkey;                              
+           chaquopy_monkey.disable_native();f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"',                                               
+           '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' --no-user-cfg egg_info --egg-base /tmp/pip-pip-egg-info-pn4i_07_                                  
+                    cwd: /tmp/pip-install-77004t4e/logging/                                                                                                        subprocess.py:649
+               Complete output (48 lines):                                                                                                                         subprocess.py:649
+               running egg_info                                                                                                                                    subprocess.py:649
+               creating /tmp/pip-pip-egg-info-pn4i_07_/logging.egg-info                                                                                            subprocess.py:649
+               writing /tmp/pip-pip-egg-info-pn4i_07_/logging.egg-info/PKG-INFO                                                                                    subprocess.py:649
+               writing dependency_links to /tmp/pip-pip-egg-info-pn4i_07_/logging.egg-info/dependency_links.txt                                                    subprocess.py:649
+               writing top-level names to /tmp/pip-pip-egg-info-pn4i_07_/logging.egg-info/top_level.txt                                                            subprocess.py:649
+               writing manifest file '/tmp/pip-pip-egg-info-pn4i_07_/logging.egg-info/SOURCES.txt'                                                                 subprocess.py:649
+               Traceback (most recent call last):                                                                                                                  subprocess.py:649
+                 File "<string>", line 1, in <module>                                                                                                              subprocess.py:649
+                 File "/tmp/pip-install-77004t4e/logging/setup.py", line 3, in <module>                                                                            subprocess.py:649
+                   setup(name = "logging",                                                                                                                         subprocess.py:649
+                 File "/usr/lib/python3.10/distutils/core.py", line 148, in setup                                                                                  subprocess.py:649
+                   dist.run_commands()                                                                                                                             subprocess.py:649
+                 File "/usr/lib/python3.10/distutils/dist.py", line 966, in run_commands                                                                           subprocess.py:649
+                   self.run_command(cmd)                                                                                                                           subprocess.py:649
+                 File "/usr/lib/python3.10/distutils/dist.py", line 985, in run_command                                                                            subprocess.py:649
+                   cmd_obj.run()                                                                                                                                   subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/setuptools/command/egg_info.py", line 296, in                    
+           run                                                                                                                                                                      
+                   self.find_sources()                                                                                                                             subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/setuptools/command/egg_info.py", line 303, in                    
+           find_sources                                                                                                                                                             
+                   mm.run()                                                                                                                                        subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/setuptools/command/egg_info.py", line 534, in                    
+           run                                                                                                                                                                      
+                   self.add_defaults()                                                                                                                             subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/setuptools/command/egg_info.py", line 570, in                    
+           add_defaults                                                                                                                                                             
+                   sdist.add_defaults(self)                                                                                                                        subprocess.py:649
+[11:15:27]       File "/usr/lib/python3.10/distutils/command/sdist.py", line 226, in add_defaults                                                                  subprocess.py:649
+                   self._add_defaults_python()                                                                                                                     subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/setuptools/command/sdist.py", line 127, in                       
+           _add_defaults_python                                                                                                                                                     
+                   build_py = self.get_finalized_command('build_py')                                                                                               subprocess.py:649
+                 File "/usr/lib/python3.10/distutils/cmd.py", line 298, in get_finalized_command                                                                   subprocess.py:649
+                   cmd_obj = self.distribution.get_command_obj(command, create)                                                                                    subprocess.py:649
+                 File "/usr/lib/python3.10/distutils/dist.py", line 857, in get_command_obj                                                                        subprocess.py:649
+                   klass = self.get_command_class(command)                                                                                                         subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/setuptools/dist.py", line 841, in                                
+           get_command_class                                                                                                                                                        
+                   self.cmdclass[command] = cmdclass = ep.load()                                                                                                   subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/pkg_resources/__init__.py", line 2448, in load                   
+                   return self.resolve()                                                                                                                           subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/pkg_resources/__init__.py", line 2454, in                        
+           resolve                                                                                                                                                                  
+                   module = __import__(self.module_name, fromlist=['__name__'], level=0)                                                                           subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/setuptools/command/build_py.py", line 15, in                     
+           <module>                                                                                                                                                                 
+                   from setuptools.lib2to3_ex import Mixin2to3                                                                                                     subprocess.py:649
+                 File "/home/estoque/Área de                                                                                                                       subprocess.py:649
+           Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/generated/python/bp/setuptools/lib2to3_ex.py", line 12, in <module>                  
+                   from lib2to3.refactor import RefactoringTool, get_fixers_from_package                                                                           subprocess.py:649
+                 File "/usr/lib/python3.10/lib2to3/refactor.py", line 19, in <module>                                                                              subprocess.py:649
+                   import logging                                                                                                                                  subprocess.py:649
+                 File "/tmp/pip-install-77004t4e/logging/logging/__init__.py", line 618                                                                            subprocess.py:649
+                   raise NotImplementedError, 'emit must be implemented '\                                                                                         subprocess.py:649
+                                            ^                                                                                                                      subprocess.py:649
+               SyntaxError: invalid syntax                                                                                                                         subprocess.py:649
+               ----------------------------------------                                                                                                            subprocess.py:649
+           ERROR: Failed to install logging from                                                                                                                   subprocess.py:649
+           https://files.pythonhosted.org/packages/93/4b/979db9e44be09f71e85c9c8cfc42f258adfb7d93ce01deed2788b2948919/logging-0.4.9.6.tar.gz#sha256=26f6b50773f085                  
+           042d301085bd1bf5d9f3735704db9f37c1ce6d8b85c38f2417 (from -r requirements.txt (line 2)).                                                                                  
+           For assistance, please raise an issue at https://github.com/chaquo/chaquopy/issues.                                                                     subprocess.py:649
+           Chaquopy: Exit status 1                                                                                                                                 subprocess.py:649
+                                                                                                                                                                   subprocess.py:649
+           > Task :app:generateDebugPythonRequirements FAILED                                                                                                      subprocess.py:649
+                                                                                                                                                                   subprocess.py:649
+           FAILURE: Build failed with an exception.                                                                                                                subprocess.py:649
+                                                                                                                                                                   subprocess.py:649
+           * What went wrong:                                                                                                                                      subprocess.py:649
+           Execution failed for task ':app:generateDebugPythonRequirements'.                                                                                       subprocess.py:649
+           > Process 'command 'python3.10'' finished with non-zero exit value 1                                                                                    subprocess.py:649
+                                                                                                                                                                   subprocess.py:649
+             To view full details in Android Studio:                                                                                                               subprocess.py:649
+             * Click the 'Build: failed' caption to the left of this message.                                                                                      subprocess.py:649
+             * Then scroll up to see the full output.                                                                                                              subprocess.py:649
+                                                                                                                                                                   subprocess.py:649
+           * Try:                                                                                                                                                  subprocess.py:649
+           Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.    subprocess.py:649
+                                                                                                                                                                   subprocess.py:649
+           * Get more help at https://help.gradle.org                                                                                                              subprocess.py:649
+                                                                                                                                                                   subprocess.py:649
+           BUILD FAILED in 6s                                                                                                                                      subprocess.py:649
+           3 actionable tasks: 3 executed                                                                                                                          subprocess.py:649
+           >>> Return code: 1                                                                                                                                      subprocess.py:712
+           Building...                                                                                                                                                 gradle.py:209
+                                                                                                                                                                      __main__.py:40
+           Error while building project.                                                                                                                              __main__.py:41
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/platforms/android/gradle.py:211 in build_app                               │
+│                                                                                                                                                                                  │
+│   208 │   │   self.logger.info("Building Android APK...", prefix=app.app_name)                                                                                                   │
+│   209 │   │   with self.input.wait_bar("Building..."):                                                                                                                           │
+│   210 │   │   │   try:                                                                                                                                                           │
+│ ❱ 211 │   │   │   │   self.run_gradle(app, ["assembleDebug"])                                                                                                                    │
+│   212 │   │   │   except subprocess.CalledProcessError as e:                                                                                                                     │
+│   213 │   │   │   │   raise BriefcaseCommandError("Error while building project.") from e                                                                                        │
+│   214                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                 │
+│ │       app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev1 AppConfig>                │                                                                                 │
+│ │    kwargs = {'device_or_avd': None, 'extra_emulator_args': None, 'shutdown_on_exit': False}  │                                                                                 │
+│ │      self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd539eb6740> │                                                                                 │
+│ │ test_mode = False                                                                            │                                                                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                 │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/platforms/android/gradle.py:107 in run_gradle                              │
+│                                                                                                                                                                                  │
+│   104 │   │   self.tools.android_sdk.verify_emulator()                                                                                                                           │
+│   105 │   │                                                                                                                                                                      │
+│   106 │   │   gradlew = "gradlew.bat" if self.tools.host_os == "Windows" else "gradlew"                                                                                          │
+│ ❱ 107 │   │   self.tools.subprocess.run(                                                                                                                                         │
+│   108 │   │   │   # Windows needs the full path to `gradlew`; macOS & Linux can find it                                                                                          │
+│   109 │   │   │   # via `./gradlew`. For simplicity of implementation, we always provide                                                                                         │
+│   110 │   │   │   # the full path.                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                   │
+│ │     app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev1 AppConfig>                │                                                                                   │
+│ │    args = ['assembleDebug']                                                                │                                                                                   │
+│ │ gradlew = 'gradlew'                                                                        │                                                                                   │
+│ │    self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd539eb6740> │                                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                   │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/integrations/subprocess.py:133 in inner                                    │
+│                                                                                                                                                                                  │
+│   130 │   │   │   with sub.tools.input.release_console_control():                                                                                                                │
+│   131 │   │   │   │   return sub_method(sub, args, **kwargs)                                                                                                                     │
+│   132 │   │   else:                                                                                                                                                              │
+│ ❱ 133 │   │   │   return sub_method(sub, args, **kwargs)                                                                                                                         │
+│   134 │                                                                                                                                                                          │
+│   135 │   return inner                                                                                                                                                           │
+│   136                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                    args = [                                                                                                                                                  │ │
+│ │                           │   PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/gradlew'),                          │ │
+│ │                           │   'assembleDebug',                                                                                                                               │ │
+│ │                           │   '--console',                                                                                                                                   │ │
+│ │                           │   'plain'                                                                                                                                        │ │
+│ │                           ]                                                                                                                                                  │ │
+│ │                  kwargs = {                                                                                                                                                  │ │
+│ │                           │   'env': {                                                                                                                                       │ │
+│ │                           │   │   'ANDROID_SDK_ROOT': '/home/estoque/.cache/briefcase/tools/android_sdk',                                                                    │ │
+│ │                           │   │   'JAVA_HOME': '/home/estoque/.cache/briefcase/tools/java'                                                                                   │ │
+│ │                           │   },                                                                                                                                             │ │
+│ │                           │   'cwd': PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle'),                           │ │
+│ │                           │   'check': True                                                                                                                                  │ │
+│ │                           }                                                                                                                                                  │ │
+│ │ remove_dynamic_elements = False                                                                                                                                              │ │
+│ │                     sub = <briefcase.integrations.subprocess.Subprocess object at 0x7fd53b335c60>                                                                            │ │
+│ │              sub_method = <function Subprocess.run at 0x7fd539e90940>                                                                                                        │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/integrations/subprocess.py:392 in run                                      │
+│                                                                                                                                                                                  │
+│   389 │   │   # caller sets stream_output=False, then ensure_console_is_safe() will                                                                                              │
+│   390 │   │   # disable any dynamic console elements while the command runs.                                                                                                     │
+│   391 │   │   if stream_output:                                                                                                                                                  │
+│ ❱ 392 │   │   │   return self._run_and_stream_output(args, **kwargs)                                                                                                             │
+│   393 │   │                                                                                                                                                                      │
+│   394 │   │   # Otherwise, invoke run() normally.                                                                                                                                │
+│   395 │   │   self._log_command(args)                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │          args = [                                                                                                                                                            │ │
+│ │                 │   PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/gradlew'),                                    │ │
+│ │                 │   'assembleDebug',                                                                                                                                         │ │
+│ │                 │   '--console',                                                                                                                                             │ │
+│ │                 │   'plain'                                                                                                                                                  │ │
+│ │                 ]                                                                                                                                                            │ │
+│ │        kwargs = {                                                                                                                                                            │ │
+│ │                 │   'env': {                                                                                                                                                 │ │
+│ │                 │   │   'ANDROID_SDK_ROOT': '/home/estoque/.cache/briefcase/tools/android_sdk',                                                                              │ │
+│ │                 │   │   'JAVA_HOME': '/home/estoque/.cache/briefcase/tools/java'                                                                                             │ │
+│ │                 │   },                                                                                                                                                       │ │
+│ │                 │   'cwd': PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle'),                                     │ │
+│ │                 │   'check': True                                                                                                                                            │ │
+│ │                 }                                                                                                                                                            │ │
+│ │          self = <briefcase.integrations.subprocess.Subprocess object at 0x7fd53b335c60>                                                                                      │ │
+│ │ stream_output = True                                                                                                                                                         │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/integrations/subprocess.py:458 in _run_and_stream_output                   │
+│                                                                                                                                                                                  │
+│   455 │   │   self._log_return_code(return_code)                                                                                                                                 │
+│   456 │   │                                                                                                                                                                      │
+│   457 │   │   if check and return_code:                                                                                                                                          │
+│ ❱ 458 │   │   │   raise subprocess.CalledProcessError(return_code, args, stderr=stderr)                                                                                          │
+│   459 │   │                                                                                                                                                                      │
+│   460 │   │   return subprocess.CompletedProcess(args, return_code, stderr=stderr)                                                                                               │
+│   461                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮  │
+│ │        args = [PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/gradlew'), 'assembleDebug', '--console', 'plain'] │  │
+│ │       check = True                                                                                                                                                          │  │
+│ │      kwargs = {                                                                                                                                                             │  │
+│ │               │   'env': {'ANDROID_SDK_ROOT': '/home/estoque/.cache/briefcase/tools/android_sdk', 'JAVA_HOME': '/home/estoque/.cache/briefcase/tools/java'},                │  │
+│ │               │   'cwd': PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle'),                                      │  │
+│ │               │   'stdout': -1,                                                                                                                                             │  │
+│ │               │   'stderr': -2,                                                                                                                                             │  │
+│ │               │   'bufsize': 1                                                                                                                                              │  │
+│ │               }                                                                                                                                                             │  │
+│ │     process = <Popen: returncode: 1 args: ['/home/estoque/Área de Trabalho/DYGTubeMobileAp...>                                                                              │  │
+│ │ return_code = 1                                                                                                                                                             │  │
+│ │        self = <briefcase.integrations.subprocess.Subprocess object at 0x7fd53b335c60>                                                                                       │  │
+│ │      stderr = None                                                                                                                                                          │  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command '[PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/gradlew'), 'assembleDebug', '--console', 'plain']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/__main__.py:25 in main                                                     │
+│                                                                                                                                                                                  │
+│   22 │   │   command = Command(logger=logger, console=console)                                                                                                                   │
+│   23 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   24 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ ❱ 25 │   │   command(**options)                                                                                                                                                  │
+│   26 │   except HelpText as e:                                                                                                                                                   │
+│   27 │   │   logger.info()                                                                                                                                                       │
+│   28 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │       command = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7fd53b50a920> │                                                                               │
+│ │       Command = <class 'briefcase.platforms.android.gradle.GradleRunCommand'>                  │                                                                               │
+│ │       console = <briefcase.console.Console object at 0x7fd53b336e30>                           │                                                                               │
+│ │             e = BriefcaseCommandError('Error while building project.')                         │                                                                               │
+│ │ extra_cmdline = []                                                                             │                                                                               │
+│ │        logger = <briefcase.console.Log object at 0x7fd53b337040>                               │                                                                               │
+│ │       options = {                                                                              │                                                                               │
+│ │                 │   'appname': None,                                                           │                                                                               │
+│ │                 │   'update': False,                                                           │                                                                               │
+│ │                 │   'update_requirements': False,                                              │                                                                               │
+│ │                 │   'update_resources': False,                                                 │                                                                               │
+│ │                 │   'no_update': False,                                                        │                                                                               │
+│ │                 │   'test_mode': False,                                                        │                                                                               │
+│ │                 │   'device_or_avd': None,                                                     │                                                                               │
+│ │                 │   'extra_emulator_args': None,                                               │                                                                               │
+│ │                 │   'shutdown_on_exit': False,                                                 │                                                                               │
+│ │                 │   'passthrough': []                                                          │                                                                               │
+│ │                 }                                                                              │                                                                               │
+│ │        result = 200                                                                            │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/commands/run.py:287 in __call__                                            │
+│                                                                                                                                                                                  │
+│   284 │   │   │   │   test_mode and not no_update                                                                                                                                │
+│   285 │   │   │   )  # Test mode, but updates have not been disabled                                                                                                             │
+│   286 │   │   ):                                                                                                                                                                 │
+│ ❱ 287 │   │   │   state = self.build_command(                                                                                                                                    │
+│   288 │   │   │   │   app,                                                                                                                                                       │
+│   289 │   │   │   │   update=update,                                                                                                                                             │
+│   290 │   │   │   │   update_requirements=update_requirements,                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                 app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev1 AppConfig>                                                                                      │ │
+│ │             appname = None                                                                                                                                                   │ │
+│ │         binary_file = PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle/app/build/outputs/apk/debug/app-debug.apk') │ │
+│ │           no_update = False                                                                                                                                                  │ │
+│ │             options = {'device_or_avd': None, 'extra_emulator_args': None, 'shutdown_on_exit': False}                                                                        │ │
+│ │         passthrough = []                                                                                                                                                     │ │
+│ │                self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7fd53b50a920>                                                                         │ │
+│ │       template_file = PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/build/DYGTubeMobileAPP/android/gradle')                                           │ │
+│ │           test_mode = False                                                                                                                                                  │ │
+│ │              update = False                                                                                                                                                  │ │
+│ │ update_requirements = False                                                                                                                                                  │ │
+│ │    update_resources = False                                                                                                                                                  │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/commands/build.py:109 in __call__                                          │
+│                                                                                                                                                                                  │
+│   106 │   │   self.finalize(app)                                                                                                                                                 │
+│   107 │   │                                                                                                                                                                      │
+│   108 │   │   if app:                                                                                                                                                            │
+│ ❱ 109 │   │   │   state = self._build_app(                                                                                                                                       │
+│   110 │   │   │   │   app,                                                                                                                                                       │
+│   111 │   │   │   │   update=update,                                                                                                                                             │
+│   112 │   │   │   │   update_requirements=update_requirements,                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                       │
+│ │                 app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev1 AppConfig>                │                                                                       │
+│ │           no_update = False                                                                            │                                                                       │
+│ │             options = {'device_or_avd': None, 'extra_emulator_args': None, 'shutdown_on_exit': False}  │                                                                       │
+│ │                self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd539eb6740> │                                                                       │
+│ │           test_mode = False                                                                            │                                                                       │
+│ │              update = False                                                                            │                                                                       │
+│ │ update_requirements = False                                                                            │                                                                       │
+│ │    update_resources = False                                                                            │                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                       │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/commands/build.py:69 in _build_app                                         │
+│                                                                                                                                                                                  │
+│    66 │   │                                                                                                                                                                      │
+│    67 │   │   self.verify_app_tools(app)                                                                                                                                         │
+│    68 │   │                                                                                                                                                                      │
+│ ❱  69 │   │   state = self.build_app(app, test_mode=test_mode, **full_options(state, options))                                                                                   │
+│    70 │   │                                                                                                                                                                      │
+│    71 │   │   qualifier = " (test mode)" if test_mode else ""                                                                                                                    │
+│    72 │   │   self.logger.info(                                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                       │
+│ │                 app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev1 AppConfig>                │                                                                       │
+│ │           no_update = False                                                                            │                                                                       │
+│ │             options = {'device_or_avd': None, 'extra_emulator_args': None, 'shutdown_on_exit': False}  │                                                                       │
+│ │                self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd539eb6740> │                                                                       │
+│ │               state = None                                                                             │                                                                       │
+│ │           test_mode = False                                                                            │                                                                       │
+│ │              update = False                                                                            │                                                                       │
+│ │ update_requirements = False                                                                            │                                                                       │
+│ │    update_resources = False                                                                            │                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                       │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1/venv/lib/python3.10/site-packages/briefcase/platforms/android/gradle.py:213 in build_app                               │
+│                                                                                                                                                                                  │
+│   210 │   │   │   try:                                                                                                                                                           │
+│   211 │   │   │   │   self.run_gradle(app, ["assembleDebug"])                                                                                                                    │
+│   212 │   │   │   except subprocess.CalledProcessError as e:                                                                                                                     │
+│ ❱ 213 │   │   │   │   raise BriefcaseCommandError("Error while building project.") from e                                                                                        │
+│   214                                                                                                                                                                            │
+│   215                                                                                                                                                                            │
+│   216 class GradleRunCommand(GradleMixin, RunCommand):                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                 │
+│ │       app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev1 AppConfig>                │                                                                                 │
+│ │    kwargs = {'device_or_avd': None, 'extra_emulator_args': None, 'shutdown_on_exit': False}  │                                                                                 │
+│ │      self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd539eb6740> │                                                                                 │
+│ │ test_mode = False                                                                            │                                                                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Error while building project.
+[11:15:28]                                                                                                                                                            console.py:305
+           >>> Extra information:                                                                                                                                     console.py:306
+                                                                                                                                                                   subprocess.py:675
+           >>> Running Command:                                                                                                                                    subprocess.py:676
+           >>>     /home/estoque/.cache/briefcase/tools/android_sdk/cmdline-tools/latest/bin/sdkmanager --list_installed                                           subprocess.py:677
+           >>> Working Directory:                                                                                                                                  subprocess.py:684
+           >>>     /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev1                                                                                       subprocess.py:685
+           >>> Environment Overrides:                                                                                                                              subprocess.py:694
+           >>>     ANDROID_SDK_ROOT=/home/estoque/.cache/briefcase/tools/android_sdk                                                                               subprocess.py:696
+           >>>     JAVA_HOME=/home/estoque/.cache/briefcase/tools/java                                                                                             subprocess.py:696
+[11:15:29] >>> Command Output:                                                                                                                                     subprocess.py:701
+           >>>     Loading package information...                                                                                                                  subprocess.py:703
+           >>>     Loading local repository...                                                                                                                     subprocess.py:703
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:703
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:703
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:703
+           >>>     Installed packages:                                                                                                                             subprocess.py:703
+           >>>       Path                                    | Version | Description                    | Location                                                 subprocess.py:703
+           >>>       -------                                 | ------- | -------                        | -------                                                  subprocess.py:703
+           >>>       build-tools;30.0.2                      | 30.0.2  | Android SDK Build-Tools 30.0.2 | build-tools/30.0.2                                       subprocess.py:703
+           >>>       emulator                                | 32.1.12 | Android Emulator               | emulator                                                 subprocess.py:703
+           >>>       patcher;v4                              | 1       | SDK Patch Applier v4           | patcher/v4                                               subprocess.py:703
+           >>>       platform-tools                          | 34.0.1  | Android SDK Platform-Tools     | platform-tools                                           subprocess.py:703
+           >>>       platforms;android-33                    | 2       | Android SDK Platform 33        | platforms/android-33                                     subprocess.py:703
+           >>>       system-images;android-31;default;x86_64 | 4       | Intel x86_64 Atom System Image | system-images/android-31/default/x86_64                  subprocess.py:703
+           >>>                                                                                                                                                     subprocess.py:703
+           >>> Return code: 0                                                                                                                                      subprocess.py:712

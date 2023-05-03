@@ -1,6 +1,6 @@
-# this is part of the DYGtubeMobile project.
+# this is part of the DYGtubeMobileApp project.
 #
-# Release: v1.0-dev1
+# Release: v1.0-dev2
 #
 # Copyright (c) 2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -21,6 +21,8 @@
 # repo: https://github.com/juanBindez
 
 
+
+import time
 import toga
 from toga.style import Pack
 from toga.style.pack import COLUMN, ROW
@@ -28,47 +30,66 @@ from pytube import YouTube
 from pytube.cli import on_progress
 
 
-class DYGTubeMobile(toga.App):
-
+class HomeScreen(toga.App):
     def startup(self):
-        """
-        Construct and show the Toga application.
-
-        Usually, you would add your application to a main content box.
-        We then create a main window (with a name matching the app), and
-        show the main window.
-        """
-        main_box = toga.Box(style=Pack(direction=COLUMN))
-
-        # Criar entrada de texto
-        text_input = toga.TextInput(style=Pack(flex=1))
-
-
-        # Criar botão
-        button = toga.Button('Download MP3', on_press=self.button_handler, style=Pack(padding=10))
-
-        # Box para centralizar os elementos
-        center_box = toga.Box(style=Pack(direction=ROW, padding=20, alignment='center'))
-        center_box.add(text_input)
-        center_box.add(button)
-
-        main_box.add(center_box)
-
         self.main_window = toga.MainWindow(title=self.formal_name)
+
+
+        button1 = toga.Button('Tela 1', on_press=self.show_screen1, style=Pack(padding=10))
+
+        button2 = toga.Button('Tela 2', on_press=self.show_screen2, style=Pack(padding=10))
+
+        main_box = toga.Box(style=Pack(direction=COLUMN, padding=10))
+        main_box.add(button1)
+        main_box.add(button2)
+
         self.main_window.content = main_box
+
+
         self.main_window.show()
 
-    def button_handler(self, widget):
-        print("Texto digitado: ", widget.text)
+    def show_screen1(self, widget):
 
-        try:
-            yt = YouTube(widget.text, on_progress_callback=on_progress)
-            ys = yt.streams.get_audio_only()
-            ys.download()
-        except:
-            pass
+        screen1 = Screen1()
 
+        self.main_window.content = screen1
+
+    def show_screen2(self, widget):
+
+        screen2 = Screen2()
+
+        self.main_window.content = screen2
+
+
+class Screen1(toga.Box):
+    def __init__(self):
+        super().__init__(style=Pack(direction=COLUMN, padding=10))
+
+        
+        button = toga.Button('Voltar', on_press=self.show_home_screen, style=Pack(padding=10))
+
+       
+        self.add(button)
+
+    def show_home_screen(self, widget):
+       
+        HomeScreen()
+
+
+class Screen2(toga.Box):
+    def __init__(self):
+        super().__init__(style=Pack(direction=COLUMN, padding=10))
+
+        button = toga.Button('Voltar', on_press=self.show_home_screen, style=Pack(padding=10))
+
+        self.add(button)
+
+    def show_home_screen(self, widget):
+   
+        home_screen = HomeScreen()
+   
+        widget.app.main_window.content = home_screen
 
 
 def main():
-    return DYGTubeMobile()
+    return HomeScreen()

@@ -2,7 +2,7 @@
 [tool.briefcase]
 project_name = "DYGTubeMobileApp"
 bundle = "dygtube.freesoftwarebrasil"
-version = "0.0.1"
+version = "1.0.dev1"
 url = "https://dygtubemobileapp.freesoftwarebrasil.com.br"
 license = "GNU General Public License v2 (GPLv2)"
 author = "Juan Bindez"
@@ -22,7 +22,9 @@ test_sources = [
 ]
 
 requires = [
+    "pytube",
 ]
+
 test_requires = [
     "pytest",
 ]
