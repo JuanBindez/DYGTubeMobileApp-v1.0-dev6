@@ -1,6 +1,5 @@
 # DYGTubeMobileApp  v1.0-dev1
 
-
 #### Instale no Linux:
 
     sudo apt install libgirepository1.0-dev
@@ -27,7 +26,6 @@
 #### Rode o modo depuração para Linux:
 
     briefcase dev
-    
     
     
 #### Crie um emulador Android:
