@@ -1,6 +1,6 @@
 # this is part of the DYGtubeMobileApp project.
 #
-# Release: v1.0-dev2
+# Release: v1.0-dev3
 #
 # Copyright (c) 2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -32,64 +32,58 @@ from pytube.cli import on_progress
 
 class HomeScreen(toga.App):
     def startup(self):
-        self.main_window = toga.MainWindow(title=self.formal_name)
+        """
+        Construct and show the Toga application.
 
-
-        button1 = toga.Button('Tela 1', on_press=self.show_screen1, style=Pack(padding=10))
-
-        button2 = toga.Button('Tela 2', on_press=self.show_screen2, style=Pack(padding=10))
-
+        Usually, you would add your application to a main content box.
+        We then create a main window (with a name matching the app), and
+        show the main window.
+        """
         main_box = toga.Box(style=Pack(direction=COLUMN, padding=10))
-        main_box.add(button1)
-        main_box.add(button2)
 
+        intro_label = toga.Label(
+            'Welcome to GeoApp!',
+            style=Pack(padding_bottom=20)
+        )
+
+        name_input = toga.TextInput(
+            placeholder='Enter your name here...',
+            style=Pack(flex=1, padding_bottom=10)
+        )
+
+        location_input = toga.TextInput(
+            placeholder='Enter your location here...',
+            style=Pack(flex=1, padding_bottom=10)
+        )
+
+        submit_button = toga.Button(
+            'Submit',
+            on_press=self.submit_form,
+            style=Pack(padding=10)
+        )
+
+        main_box.add(intro_label)
+        main_box.add(toga.Label('Name:', style=Pack(padding_bottom=5)))
+        main_box.add(name_input)
+        main_box.add(toga.Label('Location:', style=Pack(padding_bottom=5)))
+        main_box.add(location_input)
+        main_box.add(submit_button)
+
+        self.main_window = toga.MainWindow(title=self.formal_name)
         self.main_window.content = main_box
-
-
         self.main_window.show()
 
-    def show_screen1(self, widget):
+    def submit_form(self, widget):
+        """
+        Function to handle form submission.
+        """
+        name = widget.window.content[1].value
+        location = widget.window.content[3].value
 
-        screen1 = Screen1()
-
-        self.main_window.content = screen1
-
-    def show_screen2(self, widget):
-
-        screen2 = Screen2()
-
-        self.main_window.content = screen2
-
-
-class Screen1(toga.Box):
-    def __init__(self):
-        super().__init__(style=Pack(direction=COLUMN, padding=10))
-
-        
-        button = toga.Button('Voltar', on_press=self.show_home_screen, style=Pack(padding=10))
-
-       
-        self.add(button)
-
-    def show_home_screen(self, widget):
-       
-        HomeScreen()
-
-
-class Screen2(toga.Box):
-    def __init__(self):
-        super().__init__(style=Pack(direction=COLUMN, padding=10))
-
-        button = toga.Button('Voltar', on_press=self.show_home_screen, style=Pack(padding=10))
-
-        self.add(button)
-
-    def show_home_screen(self, widget):
-   
-        home_screen = HomeScreen()
-   
-        widget.app.main_window.content = home_screen
-
+        toga.dialog.info(
+            'Form Submitted!',
+            f'Thank you {name} from {location}!'
+        )
 
 def main():
     return HomeScreen()
