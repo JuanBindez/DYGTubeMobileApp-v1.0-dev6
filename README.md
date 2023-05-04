@@ -1,4 +1,4 @@
-# DYGTubeMobileApp  v1.0-dev1
+# DYGTubeMobileApp  v1.0-dev3
 
 #### Instale no Linux:
 
