@@ -2,7 +2,7 @@
 [tool.briefcase]
 project_name = "DYGTubeMobileApp"
 bundle = "dygtube.freesoftwarebrasil"
-version = "1.0.dev1"
+version = "1.0.dev4"
 url = "https://dygtubemobileapp.freesoftwarebrasil.com.br"
 license = "GNU General Public License v2 (GPLv2)"
 author = "Juan Bindez"

@@ -3,9 +3,9 @@ Briefcase-Version: 0.3.14
 Name: DYGTubeMobileAPP
 Formal-Name: DYGTubeMobileApp
 App-ID: dygtube.freesoftwarebrasil.DYGTubeMobileAPP
-Version: 1.0-dev3
+Version: 1.0-dev4
 Home-page: https://dygtubemobileapp.freesoftwarebrasil.com.br
 Download-URL: https://dygtubemobileapp.freesoftwarebrasil.com.br
-Author: Juan Bindez
+Author: Juan Bindez <juanbindez780@gmail.com>
 Author-email: JuanBindez <juanbindez780@gmail.com>
 Summary: Android app for video and music downloads. 
