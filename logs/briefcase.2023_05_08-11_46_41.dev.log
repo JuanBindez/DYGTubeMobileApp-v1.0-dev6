@@ -1,0 +1,187 @@
+Date/Time:       2023-05-08 11:46:41 
+Command line:    /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/bin/briefcase dev
+
+OS Release:      Linux 5.19.0-41-generic
+OS Version:      #42-Ubuntu SMP PREEMPT_DYNAMIC Mon Apr 17 19:17:03 UTC 2023
+Architecture:    x86_64
+Platform:        Linux-5.19.0-41-generic-x86_64-with-glibc2.36
+
+Python exe:      /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/bin/python
+Python version:  3.10.7 (main, Mar 10 2023, 10:47:39) [GCC 12.2.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.14
+Target platform: linux
+Target format:   None
+
+Environment Variables:
+    COLORTERM=truecolor
+    DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+    DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+    DESKTOP_SESSION=ubuntu
+    DISPLAY=:0
+    GDMSESSION=ubuntu
+    GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+    GNOME_SETUP_DISPLAY=:1
+    GNOME_SHELL_SESSION_MODE=ubuntu
+    GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/60fe664f_c178_43af_b6d7_f1bb08e41c5e
+    GNOME_TERMINAL_SERVICE=:1.108
+    GTK_MODULES=gail:atk-bridge
+    HOME=/home/estoque
+    IM_CONFIG_PHASE=1
+    LANG=pt_BR.UTF-8
+    LANGUAGE=pt_BR:pt:en
+    LESSCLOSE=/usr/bin/lesspipe %s %s
+    LESSOPEN=| /usr/bin/lesspipe %s
+    LOGNAME=estoque
+    LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+    OLDPWD=/home/estoque/Área de Trabalho
+    PATH=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/bin:/home/estoque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+    PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+    PWD=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4
+    QT_ACCESSIBILITY=1
+    QT_IM_MODULE=ibus
+    SESSION_MANAGER=local/estoque:@/tmp/.ICE-unix/1870,unix/estoque:/tmp/.ICE-unix/1870
+    SHELL=/bin/bash
+    SHLVL=1
+    SSH_AGENT_LAUNCHER=openssh
+    SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+    SYSTEMD_EXEC_PID=1910
+    TERM=xterm-256color
+    USER=estoque
+    USERNAME=estoque
+    VIRTUAL_ENV=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv
+    VTE_VERSION=7000
+    WAYLAND_DISPLAY=wayland-0
+    XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.7JOD41
+    XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+    XDG_CURRENT_DESKTOP=ubuntu:GNOME
+    XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+    XDG_MENU_PREFIX=gnome-
+    XDG_RUNTIME_DIR=/run/user/1000
+    XDG_SESSION_CLASS=user
+    XDG_SESSION_DESKTOP=ubuntu
+    XDG_SESSION_TYPE=wayland
+    XMODIFIERS=@im=ibus
+    _=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/bin/briefcase
+
+Briefcase Log:
+[11:46:41]                                                                                                                                                                dev.py:208
+           [DYGTubeMobileAPP] Starting in dev mode...                                                                                                                     dev.py:208
+                                                                                                                                                                   subprocess.py:675
+           >>> Running Command:                                                                                                                                    subprocess.py:676
+           >>>     '/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/bin/python' -u -X dev -X utf8 -c 'import runpy,                                 subprocess.py:677
+           sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("DYGTubeMobileAPP", run_name="__main__", alter_sys=True)'                                                       
+           >>> Working Directory:                                                                                                                                  subprocess.py:684
+           >>>     /home/estoque                                                                                                                                   subprocess.py:685
+           >>> Environment Overrides:                                                                                                                              subprocess.py:694
+           >>>     PYTHONPATH=/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/src                                                                        subprocess.py:696
+           ===========================================================================                                                                                    run.py:161
+           Traceback (most recent call last):                                                                                                                      subprocess.py:645
+             File "<string>", line 1, in <module>                                                                                                                  subprocess.py:645
+             File "/usr/lib/python3.10/runpy.py", line 224, in run_module                                                                                          subprocess.py:645
+               return _run_module_code(code, init_globals, run_name, mod_spec)                                                                                     subprocess.py:645
+             File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code                                                                                     subprocess.py:645
+               _run_code(code, mod_globals, init_globals,                                                                                                          subprocess.py:645
+             File "/usr/lib/python3.10/runpy.py", line 86, in _run_code                                                                                            subprocess.py:645
+               exec(code, run_globals)                                                                                                                             subprocess.py:645
+             File "/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/src/DYGTubeMobileAPP/__main__.py", line 1, in <module>                                subprocess.py:645
+               from DYGTubeMobileAPP.app import main                                                                                                               subprocess.py:645
+             File "/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/src/DYGTubeMobileAPP/app.py", line 26, in <module>                                    subprocess.py:645
+               import toga                                                                                                                                         subprocess.py:645
+           ModuleNotFoundError: No module named 'toga'                                                                                                             subprocess.py:645
+                                                                                                                                                                      __main__.py:40
+           Problem running app DYGTubeMobileAPP.                                                                                                                      __main__.py:41
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/lib/python3.10/site-packages/briefcase/__main__.py:25 in main                                                     │
+│                                                                                                                                                                                  │
+│   22 │   │   command = Command(logger=logger, console=console)                                                                                                                   │
+│   23 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   24 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ ❱ 25 │   │   command(**options)                                                                                                                                                  │
+│   26 │   except HelpText as e:                                                                                                                                                   │
+│   27 │   │   logger.info()                                                                                                                                                       │
+│   28 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                      │
+│ │       command = <briefcase.commands.dev.DevCommand object at 0x7f0dd830a920>                                            │                                                      │
+│ │       Command = <class 'briefcase.commands.dev.DevCommand'>                                                             │                                                      │
+│ │       console = <briefcase.console.Console object at 0x7f0dd8112e30>                                                    │                                                      │
+│ │             e = BriefcaseCommandError('Problem running app DYGTubeMobileAPP.')                                          │                                                      │
+│ │ extra_cmdline = []                                                                                                      │                                                      │
+│ │        logger = <briefcase.console.Log object at 0x7f0dd8113040>                                                        │                                                      │
+│ │       options = {'appname': None, 'update_requirements': False, 'run_app': True, 'test_mode': False, 'passthrough': []} │                                                      │
+│ │        result = 200                                                                                                     │                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                      │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/lib/python3.10/site-packages/briefcase/commands/dev.py:210 in __call__                                            │
+│                                                                                                                                                                                  │
+│   207 │   │   │   else:                                                                                                                                                          │
+│   208 │   │   │   │   self.logger.info("Starting in dev mode...", prefix=app.app_name)                                                                                           │
+│   209 │   │   │   env = self.get_environment(app, test_mode=test_mode)                                                                                                           │
+│ ❱ 210 │   │   │   return self.run_dev_app(                                                                                                                                       │
+│   211 │   │   │   │   app,                                                                                                                                                       │
+│   212 │   │   │   │   env,                                                                                                                                                       │
+│   213 │   │   │   │   test_mode=test_mode,                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────╮                                                  │
+│ │                 app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev4 AppConfig>                                     │                                                  │
+│ │             appname = None                                                                                                  │                                                  │
+│ │      dist_info_path = PosixPath('/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/src/DYGTubeMobileAPP.dist-info') │                                                  │
+│ │                 env = {'PYTHONPATH': '/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/src'}                       │                                                  │
+│ │             options = {}                                                                                                    │                                                  │
+│ │         passthrough = []                                                                                                    │                                                  │
+│ │             run_app = True                                                                                                  │                                                  │
+│ │                self = <briefcase.commands.dev.DevCommand object at 0x7f0dd830a920>                                          │                                                  │
+│ │           test_mode = False                                                                                                 │                                                  │
+│ │ update_requirements = False                                                                                                 │                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                  │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/lib/python3.10/site-packages/briefcase/commands/dev.py:131 in run_dev_app                                         │
+│                                                                                                                                                                                  │
+│   128 │   │   )                                                                                                                                                                  │
+│   129 │   │                                                                                                                                                                      │
+│   130 │   │   # Start streaming logs for the app.                                                                                                                                │
+│ ❱ 131 │   │   self._stream_app_logs(                                                                                                                                             │
+│   132 │   │   │   app,                                                                                                                                                           │
+│   133 │   │   │   popen=app_popen,                                                                                                                                               │
+│   134 │   │   │   test_mode=test_mode,                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │         app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev4 AppConfig>                │                                                                               │
+│ │   app_popen = <Popen: returncode: 1 args: ['/home/estoque/Área de Trabalho/DYGTubeMobileAp...> │                                                                               │
+│ │         env = {'PYTHONPATH': '/home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/src'}  │                                                                               │
+│ │ main_module = 'DYGTubeMobileAPP'                                                               │                                                                               │
+│ │     options = {}                                                                               │                                                                               │
+│ │ passthrough = []                                                                               │                                                                               │
+│ │        self = <briefcase.commands.dev.DevCommand object at 0x7f0dd830a920>                     │                                                                               │
+│ │   test_mode = False                                                                            │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ /home/estoque/Área de Trabalho/DYGTubeMobileApp-v1.0-dev4/venv/lib/python3.10/site-packages/briefcase/commands/run.py:191 in _stream_app_logs                                    │
+│                                                                                                                                                                                  │
+│   188 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   189 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   190 │   │   │   │   if popen.returncode != 0:                                                                                                                                  │
+│ ❱ 191 │   │   │   │   │   raise BriefcaseCommandError(f"Problem running app {app.app_name}.")                                                                                    │
+│   192 │   │                                                                                                                                                                      │
+│   193 │   │   except KeyboardInterrupt:                                                                                                                                          │
+│   194 │   │   │   pass  # Catch CTRL-C to exit normally                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                              │
+│ │          app = <dygtube.freesoftwarebrasil.DYGTubeMobileAPP v1.0.dev4 AppConfig>                │                                                                              │
+│ │ clean_filter = None                                                                             │                                                                              │
+│ │ clean_output = False                                                                            │                                                                              │
+│ │  exit_filter = <function LogFilter.test_filter.<locals>.filter_func at 0x7f0dd694e170>          │                                                                              │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x7f0dd69a86a0>                      │                                                                              │
+│ │   log_stream = False                                                                            │                                                                              │
+│ │        popen = <Popen: returncode: 1 args: ['/home/estoque/Área de Trabalho/DYGTubeMobileAp...> │                                                                              │
+│ │         self = <briefcase.commands.dev.DevCommand object at 0x7f0dd830a920>                     │                                                                              │
+│ │    stop_func = <function RunAppMixin.<lambda> at 0x7f0dd6933ac0>                                │                                                                              │
+│ │    test_mode = False                                                                            │                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app DYGTubeMobileAPP.
